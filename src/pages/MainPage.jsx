@@ -56,6 +56,8 @@ const MainPage = () => {
             <Pagination
                     defaultCurrent={1}
                     defaultPageSize={10} 
+                    pageSize={10}
+                    pageSizeOptions={["10"]}
                     onChange={handleChange}
                     total={displayPosts.length} 
                     className="pagination"
