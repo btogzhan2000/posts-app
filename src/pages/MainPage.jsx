@@ -27,8 +27,8 @@ const MainPage = () => {
                 whileTap={{ scale: 0.9 }}
             >
                 <div className="header">
-                    <img src={avatar}></img>
-                    <h1 className="user-id">User id: {post.id}</h1>
+                    <img alt={post.id} src={avatar}></img>
+                    <h1 className="user-id">User id: {post.userId}</h1>
                 </div>
                 
                 <h4>{post.title}</h4>
