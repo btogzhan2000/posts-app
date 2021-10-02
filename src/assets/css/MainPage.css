@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.user-id {
+    margin-left: 20px;
+}
+.post-box {
+    background: white;
+    border-radius: 30px;
+    width: 500px;
+    padding: 20px;
+    margin: 30px;
+}
+.app {
+    background: linear-gradient(90deg, rgba(206,159,252,1) 35%, rgba(115,103,240,1) 100%);
+}
+.pagination {
+    margin-top: 20px;
+}
