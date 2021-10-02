@@ -63,20 +63,6 @@ const MainPage = () => {
 
             {displayPosts && displayPosts.length>0 && displayPosts.slice(minPage,maxPage)}
 
-            <motion.div 
-                    className="post-box"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                >
-                    <div className="header">
-                        <img src={avatar}></img>
-                        <h1 className="user-id">User id: 2</h1>
-                    </div>
-                    
-                    <h4>sunt aut facere repellat provident occaecati excepturi optio reprehenderit</h4>
-                    <p>quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
-                
-                </motion.div>
             </div>
         </div>
     );
